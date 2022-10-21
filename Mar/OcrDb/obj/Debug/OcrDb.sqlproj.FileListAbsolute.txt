@@ -1,0 +1,10 @@
+D:\Simpacc\2022\ocr\Mar\OcrDb\bin\Debug\OcrDb.dacpac
+D:\Simpacc\2022\ocr\Mar\OcrDb\bin\Debug\OcrDb.dll
+D:\Simpacc\2022\ocr\Mar\OcrDb\bin\Debug\OcrDb.pdb
+D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\OcrDb.sqlproj.AssemblyReference.cache
+D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\Model.xml
+D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\refactor.xml
+D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\postdeploy.sql
+D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\predeploy.sql
+D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\OcrDb.dll
+D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\OcrDb.pdb
