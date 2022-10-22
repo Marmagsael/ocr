@@ -1,5 +1,5 @@
-﻿using LoginLibraryA.DataAccess;
-using LoginLibraryA.Models;
+﻿using OcrLibrary.DataAccess;
+using OcrLibrary.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;

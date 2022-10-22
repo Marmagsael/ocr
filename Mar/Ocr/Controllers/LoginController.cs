@@ -1,12 +1,12 @@
-﻿using LoginLibraryA.DataAccess;
+﻿using OcrLibrary.DataAccess;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using LoginLibraryA.Models;
+using OcrLibrary.Models;
 
-namespace UI.Controllers
+namespace Ocr.Controllers
 {
     public class LoginController : Controller
     {
@@ -85,8 +85,8 @@ namespace UI.Controllers
         [HttpPost("login/Register")]
         public async Task<IActionResult> RegisterUser(string UserName, string Email, string Password)
         {
-            var userExist               = await _data.FetchUserByEmailQS(Email);
-            if (userExist is  null)
+            var userExist = await _data.FetchUserByEmailQS(Email);
+            if (userExist is null)
             {
                 DateTime created = DateTime.Now;
                 UsersModel userModel = new UsersModel();

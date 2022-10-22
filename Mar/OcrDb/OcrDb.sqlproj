@@ -75,4 +75,7 @@
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="OcrDb.publish.xml" />
+  </ItemGroup>
 </Project>
