@@ -1,0 +1,85 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+@using OcrLibrary.Data; 
+@model OcrLibrary.Models.Menus.MenusOcrModel
+
+@{
+    var cstring = Configuration.GetConnectionString("Default");
+    var menus       = await MenusOCRData.GetMenusOcr(cstring);
+
+    var menuHdr = menus.Where(m => m?.Type.Trim() == "Hdr"); 
+}
+
+<div class="lm-hdr">
+    <span class="lm-hdr-text">@ViewBag.UserName </span>
+    <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-left"></i></span>
+    <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-right"></i></span>
+</div>
+
+<div>
+
+    Count of Menus : @menus.Count(); 
+
+    <hr />
+
+    @{
+        var menusHdr = menus.Where(m => m?.Type.Trim() == "Hdr");
+    }
+
+    @foreach (var mHdr in menusHdr)
+    {
+        <div class="lm-hdr"> 
+            
+            @mHdr?.DispText @mHdr?.Type 
+
+            @{ 
+                var idHdr = mHdr?.Id;
+                var menusSHdr = menus.Where(m => m?.IdParent == idHdr);
+             }
+
+             <div class="dtl1">
+
+                @foreach (var s in menusSHdr)
+            {
+                <div class="lm-dtl"> 
+                    @if(s?.Icon1.Length > 0) {
+                            <span class="lm-icon1"><i class="@s?.Icon1"></i></span>
+                    }
+
+                    <span class="lm-dtl-text">@s?.DispText</span>
+
+                    @if (s?.IsWithChild == 1)
+                    {
+                        <span class=""><i class="fa-solid fa-angle-up"></i></span>
+                        <span class=""><i class="fa-solid fa-angle-down"></i></span>
+
+                        var idS     = s?.Id;
+                        var menusS = menus.Where(m => m?.IdParent == idS);
+
+
+                        <div class="dtl2">
+
+                            @foreach (var d in menusS)
+                            {
+                                <span class="lm-dtl-text"> @d?.DispText </span>
+                            }
+
+                        </div>
+
+                    }
+
+                </div>
+                
+            }
+
+            </div>
+
+        </div>
+    }
+
+
+
+</div>
+
+

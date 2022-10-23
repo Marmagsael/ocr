@@ -1,0 +1,80 @@
+﻿@using Microsoft.Extensions.Configuration;
+@inject IConfiguration Configuration;
+
+@using OcrLibrary.Data;
+@model OcrLibrary.Models.Menus.MenusOcrModel;
+
+@{
+    var cstring = Configuration.GetConnectionString("Default");
+    var menus = await MenusOCRData.GetMenusOcr(cstring);
+   
+    var menuHdr = menus.Where(m => m?.Type.Trim() == "Hdr");
+
+
+}
+
+<div class="lm-hdr">
+    <span class="lm-hdr-text">@ViewBag.UserName </span>
+    <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-left"></i></span>
+    <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-right"></i></span>
+</div>
+
+Cnt : @menus.Count();
+Cnt MenuHdr: @menuHdr.Count();
+
+@foreach (var h in menuHdr)
+{
+
+    <div class="menu-wrapper">
+        <div class="lmd-hdr-caption text-muted">@h?.DispText</div>
+
+        @{
+            var id = h?.Id;
+            var menuSHdr = menus.Where(m => m?.IdParent == id);
+        }
+
+        @foreach (var s in menuSHdr)
+        {
+            <div class="lmd-hdr">
+                <span class="lmd-hdr-icon1 lm-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                <span class="lmd-hdr-text">@s?.DispText</span>
+                @if (s?.IsWithChild == 1)
+                {
+                    <span class="lmd-hdr-icon2">
+                        <span class="lmh-icon2-up lm-icon"><i class="fa-solid fa-angle-up"></i></span>
+                        <span class="lmh-icon2-down lm-icon"><i class="fa-solid fa-angle-down"></i></span>
+                    </span>
+
+                }
+
+            </div>
+
+            @if (s?.IsWithChild == 1)
+            {
+                <div class="lm-child">
+
+                    @{
+                        var idd = s?.Id;
+                        var menuDtl = menus.Where(m => m?.IdParent == idd);
+                    }
+                    @foreach (var d in menuDtl)
+                    {
+                        <div class="lm-child-item">
+                            <span class="lmc-icon lm-icon"><i class="fa-solid fa-inbox"></i></span>
+                            <span class="lmc-text">@d?.DispText</span>
+                        </div>
+                    }
+
+                </div>
+
+            }
+
+
+        }
+
+    </div>
+
+
+}
+
+
