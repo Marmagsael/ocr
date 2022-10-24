@@ -38,7 +38,7 @@ namespace VisionAPI.Controllers
             AnnotateImageResponse response = client.Annotate(request);
             string logo = DetectLogo(response);
             string amount = DetectAmount(response);
-            return Ok(new { logo, amount });
+            return Ok(new { logo, amount, response });
         }
         private ImageAnnotatorClient CreateClient()
         {
@@ -118,5 +118,6 @@ namespace VisionAPI.Controllers
             }
             return "None";
         }
+            
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bsJJgTfunR392n5Wd1QkoXnhCAOMQ/e5Bw1zDyqaN2s=",
+  "Hash": "X8TuAllWOz+oMtwlnNApK+ES3XtNNCwLFqW64es5L6A=",
   "Source": "Ocr",
   "BasePath": "_content/Ocr",
   "Mode": "Default",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\images\\dummy-user-img.png"
     },
     {
+      "Identity": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\wwwroot\\images\\invoice.jpg",
+      "SourceId": "Ocr",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\wwwroot\\",
+      "BasePath": "_content/Ocr",
+      "RelativePath": "images/invoice.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\invoice.jpg"
+    },
+    {
       "Identity": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\wwwroot\\images\\login-bg.jpg",
       "SourceId": "Ocr",
       "SourceType": "Discovered",
@@ -151,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\login-bg.jpg"
+    },
+    {
+      "Identity": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\wwwroot\\images\\sample1.jpg",
+      "SourceId": "Ocr",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\wwwroot\\",
+      "BasePath": "_content/Ocr",
+      "RelativePath": "images/sample1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sample1.jpg"
     },
     {
       "Identity": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\wwwroot\\js\\ocr.js",

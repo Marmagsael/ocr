@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    var vision = ViewBag.Vision;
+    //var response1 = ViewBag.Vision.value;
+    var response2 = ViewBag.Vision.Value;
+    var response3 = ViewBag.Vision.Value.response;
+    
+    var response =  vision["response"]; 
+
+}
+    @response3 
+
+@*@foreach (var item in vision)
+{
+    <br /> @item[].ToString(); 
+}
+*@
+This is Vision Api 
