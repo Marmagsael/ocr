@@ -8,77 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ocr
 build_property.RootNamespace = Ocr
-build_property.ProjectDir = C:\ASP.Net Apps\_OCR\Mar\Ocr\
+build_property.ProjectDir = E:\Gsia\Mar\Ocr\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ASP.Net Apps\_OCR\Mar\Ocr
+build_property.MSBuildProjectDirectory = E:\Gsia\Mar\Ocr
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Home/Index.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Home/Privacy.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/LoginLocked/SignInWithGoogle.cshtml]
+[E:/Gsia/Mar/Ocr/Views/LoginLocked/SignInWithGoogle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Mb2NrZWRcU2lnbkluV2l0aEdvb2dsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Simpacc/2022/ocr/Mar/Ocr/Views/Pis/Create.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Pis/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Simpacc/2022/ocr/Mar/Ocr/Views/Pis/Edit.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Pis/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Simpacc/2022/ocr/Mar/Ocr/Views/Pis/Index.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Pis/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Simpacc/2022/ocr/Mar/Ocr/Views/Shared/Error.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Shared/Ocr/PartialView/p_footer.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Shared/Ocr/PartialView/p_footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX2Zvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Shared/Ocr/PartialView/p_left - Copy.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Shared/Ocr/PartialView/p_left - Copy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX2xlZnQgLSBDb3B5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Shared/Ocr/PartialView/p_left.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Shared/Ocr/PartialView/p_left.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX2xlZnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Shared/Ocr/PartialView/p_top.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Shared/Ocr/PartialView/p_top.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX3RvcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Shared/Ocr/_OcrLayout.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Shared/Ocr/_OcrLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxfT2NyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Simpacc/2022/ocr/Mar/Ocr/Views/VisionApi/Index.cshtml]
+[E:/Gsia/Mar/Ocr/Views/VisionApi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaW9uQXBpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Simpacc/2022/ocr/Mar/Ocr/Views/_ViewImports.cshtml]
+[E:/Gsia/Mar/Ocr/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/_ViewStart.cshtml]
+[E:/Gsia/Mar/Ocr/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Mar/Ocr/Views/Shared/_Layout.cshtml]
+[E:/Gsia/Mar/Ocr/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2xqcb2k98r

@@ -1001,34 +1001,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\marma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Simpacc\\2022\\ocr\\Mar\\LibraryMySql\\LibraryMySql.csproj",
+      "projectUniqueName": "E:\\Gsia\\Mar\\LibraryMySql\\LibraryMySql.csproj",
       "projectName": "LibraryMySql",
-      "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\LibraryMySql\\LibraryMySql.csproj",
-      "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
-      "outputPath": "D:\\Simpacc\\2022\\ocr\\Mar\\LibraryMySql\\obj\\",
+      "projectPath": "E:\\Gsia\\Mar\\LibraryMySql\\LibraryMySql.csproj",
+      "packagesPath": "C:\\Users\\marma\\.nuget\\packages\\",
+      "outputPath": "E:\\Gsia\\Mar\\LibraryMySql\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1076,7 +1074,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

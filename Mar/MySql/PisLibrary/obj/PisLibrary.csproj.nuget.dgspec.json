@@ -1,41 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Simpacc\\2022\\ocr\\Mar\\MySql\\PisLibrary\\PisLibrary.csproj": {}
+    "E:\\Gsia\\Mar\\MySql\\PisLibrary\\PisLibrary.csproj": {}
   },
   "projects": {
-    "D:\\Simpacc\\2022\\ocr\\Mar\\MySql\\PisLibrary\\PisLibrary.csproj": {
+    "E:\\Gsia\\Mar\\MySql\\PisLibrary\\PisLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simpacc\\2022\\ocr\\Mar\\MySql\\PisLibrary\\PisLibrary.csproj",
+        "projectUniqueName": "E:\\Gsia\\Mar\\MySql\\PisLibrary\\PisLibrary.csproj",
         "projectName": "PisLibrary",
-        "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\MySql\\PisLibrary\\PisLibrary.csproj",
-        "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
-        "outputPath": "D:\\Simpacc\\2022\\ocr\\Mar\\MySql\\PisLibrary\\obj\\",
+        "projectPath": "E:\\Gsia\\Mar\\MySql\\PisLibrary\\PisLibrary.csproj",
+        "packagesPath": "C:\\Users\\marma\\.nuget\\packages\\",
+        "outputPath": "E:\\Gsia\\Mar\\MySql\\PisLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj": {
-                "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj"
+              "E:\\Gsia\\Mar\\OcrLibrary\\OcrLibrary.csproj": {
+                "projectPath": "E:\\Gsia\\Mar\\OcrLibrary\\OcrLibrary.csproj"
               }
             }
           }
@@ -62,9 +61,9 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "MySql.Data.EntityFrameworkCore": {
+            "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[8.0.31, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -87,34 +86,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj": {
+    "E:\\Gsia\\Mar\\OcrLibrary\\OcrLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj",
+        "projectUniqueName": "E:\\Gsia\\Mar\\OcrLibrary\\OcrLibrary.csproj",
         "projectName": "OcrLibrary",
-        "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj",
-        "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
-        "outputPath": "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\obj\\",
+        "projectPath": "E:\\Gsia\\Mar\\OcrLibrary\\OcrLibrary.csproj",
+        "packagesPath": "C:\\Users\\marma\\.nuget\\packages\\",
+        "outputPath": "E:\\Gsia\\Mar\\OcrLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -170,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
