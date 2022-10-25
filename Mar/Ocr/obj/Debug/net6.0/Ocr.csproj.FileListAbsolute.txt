@@ -287,3 +287,11 @@ D:\Simpacc\2022\ocr\mar\ocr\bin\Debug\net6.0\Grpc.Auth.dll
 D:\Simpacc\2022\ocr\mar\ocr\bin\Debug\net6.0\Grpc.Core.Api.dll
 D:\Simpacc\2022\ocr\mar\ocr\bin\Debug\net6.0\Grpc.Net.Client.dll
 D:\Simpacc\2022\ocr\mar\ocr\bin\Debug\net6.0\Grpc.Net.Common.dll
+D:\Simpacc\2022\ocr\Mar\Ocr\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\Simpacc\2022\ocr\Mar\Ocr\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\Simpacc\2022\ocr\Mar\Ocr\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\Simpacc\2022\ocr\Mar\Ocr\bin\Debug\net6.0\MySql.Data.dll
+D:\Simpacc\2022\ocr\Mar\Ocr\bin\Debug\net6.0\ZstdNet.dll
+D:\Simpacc\2022\ocr\Mar\Ocr\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Simpacc\2022\ocr\Mar\Ocr\bin\Debug\net6.0\LibraryMySql.dll
+D:\Simpacc\2022\ocr\Mar\Ocr\bin\Debug\net6.0\LibraryMySql.pdb

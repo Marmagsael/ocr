@@ -1,0 +1,8 @@
+D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.csproj.AssemblyReference.cache
+D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.AssemblyInfoInputs.cache
+D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.AssemblyInfo.cs
+D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.csproj.CoreCompileInputs.cache
+D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.MvcApplicationPartsAssemblyInfo.cache
+D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.RazorAssemblyInfo.cache
+D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.RazorAssemblyInfo.cs

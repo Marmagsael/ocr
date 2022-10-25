@@ -1,0 +1,12 @@
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\bin\Debug\net6.0\LibraryMySql.deps.json
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\bin\Debug\net6.0\LibraryMySql.dll
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\bin\Debug\net6.0\LibraryMySql.pdb
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.csproj.AssemblyReference.cache
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.AssemblyInfoInputs.cache
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.AssemblyInfo.cs
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.csproj.CoreCompileInputs.cache
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.dll
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\refint\LibraryMySql.dll
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.pdb
+D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\ref\LibraryMySql.dll

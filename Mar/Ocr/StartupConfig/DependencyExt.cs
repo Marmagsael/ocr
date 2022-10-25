@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
-
+using OcrLibrary.DataAccess;
+using LibraryMySql;
 
 namespace Ocr.StartupConfig;
 
@@ -71,6 +72,13 @@ public static class DependencyExt
             options.CallbackPath = builder.Configuration.GetValue<string>("OpenIdConnect:CallbackPath");
             options.GetClaimsFromUserInfoEndpoint = true;
         });   */
+
+    }
+
+    public static void AddSingleton(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddSingleton<ISqlDataAccess, SqlDataAccess>();
+        builder.Services.AddSingleton<IMySqlDataAccess,MySqlDataAccess>();
 
     }
 }

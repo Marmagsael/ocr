@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Security.Cryptography;
 using System.Reflection.Metadata;
+using Microsoft.AspNetCore.Mvc;
 
 namespace OcrLibrary.Data;
 public static class MenusOCRData
@@ -21,6 +22,5 @@ public static class MenusOCRData
         return rows.ToList();
     }
 
-
-
+    
 }

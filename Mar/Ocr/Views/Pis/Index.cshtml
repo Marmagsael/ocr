@@ -1,0 +1,87 @@
+﻿@model IEnumerable<LibraryMySql.Models.EmployeeInfoModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@if(Model is null) {
+    <p><em>Looding.....</em></p>
+} else {
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpLastNm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpFirstNm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpMidNm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Suffix)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpAlias)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpLastNm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpFirstNm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpMidNm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Suffix)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpAlias)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClName)
+            </td>
+            <td>
+                        @Html.ActionLink("Edit", "Edit", new {  id=item.EmpNumber } ) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+}
