@@ -1,9 +1,10 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\Ocr.csproj": {}
+    "C:\\ASP.Net Apps\\_OCR\\Mar\\Ocr\\Ocr.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "D:\\Simpacc\\2022\\ocr\\Mar\\LibraryMySql\\LibraryMySql.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -80,20 +81,23 @@
       }
     },
     "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj": {
+=======
+    "C:\\ASP.Net Apps\\_OCR\\Mar\\OcrLibrary\\OcrLibrary.csproj": {
+>>>>>>> origin/dith01
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj",
+        "projectUniqueName": "C:\\ASP.Net Apps\\_OCR\\Mar\\OcrLibrary\\OcrLibrary.csproj",
         "projectName": "OcrLibrary",
-        "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj",
-        "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
-        "outputPath": "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\obj\\",
+        "projectPath": "C:\\ASP.Net Apps\\_OCR\\Mar\\OcrLibrary\\OcrLibrary.csproj",
+        "packagesPath": "C:\\Users\\judit\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.Net Apps\\_OCR\\Mar\\OcrLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\judit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -162,21 +166,21 @@
         }
       }
     },
-    "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\Ocr.csproj": {
+    "C:\\ASP.Net Apps\\_OCR\\Mar\\Ocr\\Ocr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\Ocr.csproj",
+        "projectUniqueName": "C:\\ASP.Net Apps\\_OCR\\Mar\\Ocr\\Ocr.csproj",
         "projectName": "Ocr",
-        "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\Ocr.csproj",
-        "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
-        "outputPath": "D:\\Simpacc\\2022\\ocr\\Mar\\Ocr\\obj\\",
+        "projectPath": "C:\\ASP.Net Apps\\_OCR\\Mar\\Ocr\\Ocr.csproj",
+        "packagesPath": "C:\\Users\\judit\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.Net Apps\\_OCR\\Mar\\Ocr\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\judit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -192,11 +196,16 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\Simpacc\\2022\\ocr\\Mar\\LibraryMySql\\LibraryMySql.csproj": {
                 "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\LibraryMySql\\LibraryMySql.csproj"
               },
               "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj": {
                 "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\OcrLibrary\\OcrLibrary.csproj"
+=======
+              "C:\\ASP.Net Apps\\_OCR\\Mar\\OcrLibrary\\OcrLibrary.csproj": {
+                "projectPath": "C:\\ASP.Net Apps\\_OCR\\Mar\\OcrLibrary\\OcrLibrary.csproj"
+>>>>>>> origin/dith01
               }
             }
           }

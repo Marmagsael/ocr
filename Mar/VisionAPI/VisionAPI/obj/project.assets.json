@@ -1346,18 +1346,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Simpacc\\2022\\ocr\\Mar\\VisionAPI\\VisionAPI\\VisionAPI.csproj",
+      "projectUniqueName": "C:\\ASP.Net Apps\\_OCR\\Mar\\VisionAPI\\VisionAPI\\VisionAPI.csproj",
       "projectName": "VisionAPI",
-      "projectPath": "D:\\Simpacc\\2022\\ocr\\Mar\\VisionAPI\\VisionAPI\\VisionAPI.csproj",
-      "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
-      "outputPath": "D:\\Simpacc\\2022\\ocr\\Mar\\VisionAPI\\VisionAPI\\obj\\",
+      "projectPath": "C:\\ASP.Net Apps\\_OCR\\Mar\\VisionAPI\\VisionAPI\\VisionAPI.csproj",
+      "packagesPath": "C:\\Users\\judit\\.nuget\\packages\\",
+      "outputPath": "C:\\ASP.Net Apps\\_OCR\\Mar\\VisionAPI\\VisionAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\judit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

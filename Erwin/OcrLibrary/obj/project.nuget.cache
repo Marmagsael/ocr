@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2BvHT4pVg/2yWddm14kYV4malB/zHq89BERpcKqEbDlhCUkaPrUmcjyL7JItujmxZ9hM0QTYCGWJVO5BJWJZiA==",
+  "dgSpecHash": "GclT/vL6Fg9XGNj0ndTXuBEk2m23fPOuDwb1S75u0i9ICxiIjH2PtHCDSfdVULu8gz01PO7myH7hgNo3S51hmQ==",
   "success": true,
-  "projectFilePath": "D:\\Simpacc\\2022\\ocr\\Erwin\\OcrLibrary\\OcrLibrary.csproj",
+  "projectFilePath": "C:\\ASP.Net Apps\\_OCR\\Erwin\\OcrLibrary\\OcrLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
