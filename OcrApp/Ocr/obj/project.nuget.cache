@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "rL+G4XjvSBsALcsfEKrT6miiNsI0w2PhcEpgxtLNxJkIcCk77vlKKai6J3k4j7bJLREKYTgSYGzYKNVn/lKXRA==",
   "success": true,
   "projectFilePath": "E:\\Gsia\\OcrApp\\Ocr\\Ocr.csproj",
@@ -24,11 +23,12 @@
     "C:\\Users\\marma\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\marma\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
-=======
-  "dgSpecHash": "AHTMBc/gXZSaCJsETRwLSXLM+OPMbxxcGEEImmdykaZQU5sC/y+4rN0aM8sa1rpAdhJgTfBuIzQADegkW8VOgA==",
-  "success": true,
-  "projectFilePath": "C:\\ASP.Net Apps\\OCR\\OcrApp\\Ocr\\Ocr.csproj",
-  "expectedPackageFiles": [],
->>>>>>> origin/dith02
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\Gsia\\OcrApp\\Ocr\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
