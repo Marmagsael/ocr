@@ -10,3 +10,15 @@ D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.dll
 D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\refint\LibraryMySql.dll
 D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.pdb
 D:\Simpacc\2022\ocr\Mar\LibraryMySql\obj\Debug\net6.0\ref\LibraryMySql.dll
+E:\Gsia\Mar\LibraryMySql\bin\Debug\net6.0\LibraryMySql.deps.json
+E:\Gsia\Mar\LibraryMySql\bin\Debug\net6.0\LibraryMySql.dll
+E:\Gsia\Mar\LibraryMySql\bin\Debug\net6.0\LibraryMySql.pdb
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.csproj.AssemblyReference.cache
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.GeneratedMSBuildEditorConfig.editorconfig
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.AssemblyInfoInputs.cache
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.AssemblyInfo.cs
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.csproj.CoreCompileInputs.cache
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.dll
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\refint\LibraryMySql.dll
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\LibraryMySql.pdb
+E:\Gsia\Mar\LibraryMySql\obj\Debug\net6.0\ref\LibraryMySql.dll

@@ -1,5 +1,15 @@
 ﻿.ocr-hdr {
-    background-color: darkcyan;
     width: 100%;
     border: 1px solid red; ;
+}
+
+.ocr-body {
+    display: flex;
+    min-height: 90vh;
+}
+.ocr-left {
+    border : 1px solid green; 
+}
+.ocr-right {
+    border : 1px solid blue; 
 }

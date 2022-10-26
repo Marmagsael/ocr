@@ -1,14 +1,8 @@
 using Ocr.StartupConfig; 
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-
-builder.AddSingleton(); 
+builder.AddServices(); 
+builder.AddAuthenticationServices();
 
 var app = builder.Build();
 
@@ -25,6 +19,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); 
 app.UseAuthorization();
 //app.MapControllers();
 
