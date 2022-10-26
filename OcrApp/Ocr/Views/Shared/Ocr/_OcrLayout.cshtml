@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - UI</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/ocr.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/lib/font-awesome/css/fontawesome.css" />
+        <link rel="stylesheet" href="~/lib/font-awesome/css/regular.min.css">
+        <link rel="stylesheet" href="~/lib/font-awesome/css/solid.min.css">
+    </head>
+    <body>
+        <div class="container-fluid p-0">
+            @* Header *@
+            
+            <header id="ocrTop">
+                <partial name="Ocr/PartialView/p_top"/>
+            </header>
+
+            <div id="ocrBody">
+                @* Left-menu *@
+                <aside id="ocrLeft" >
+                    <partial name="Ocr/PartialView/p_left" />
+                </aside>
+
+                @* Main Content *@
+                <div id="ocrRight">
+                    <main role="main">
+                        @RenderBody()
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        @* Footer *@
+        <footer id="ocrFooter">
+            <partial name="Ocr/PartialView/p_footer" />
+        </footer>
+    
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/ocr.js" asp-append-version="true"></script>
+    </body>
+</html>

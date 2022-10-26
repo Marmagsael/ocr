@@ -10,6 +10,7 @@ D:\Simpacc\2022\ocr\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.dll
 D:\Simpacc\2022\ocr\Mar\OcrLibrary\obj\Debug\net6.0\refint\OcrLibrary.dll
 D:\Simpacc\2022\ocr\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.pdb
 D:\Simpacc\2022\ocr\Mar\OcrLibrary\obj\Debug\net6.0\ref\OcrLibrary.dll
+<<<<<<< HEAD
 E:\Gsia\Mar\OcrLibrary\bin\Debug\net6.0\OcrLibrary.deps.json
 E:\Gsia\Mar\OcrLibrary\bin\Debug\net6.0\OcrLibrary.dll
 E:\Gsia\Mar\OcrLibrary\bin\Debug\net6.0\OcrLibrary.pdb
@@ -22,3 +23,17 @@ E:\Gsia\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.dll
 E:\Gsia\Mar\OcrLibrary\obj\Debug\net6.0\refint\OcrLibrary.dll
 E:\Gsia\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.pdb
 E:\Gsia\Mar\OcrLibrary\obj\Debug\net6.0\ref\OcrLibrary.dll
+=======
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\bin\Debug\net6.0\OcrLibrary.deps.json
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\bin\Debug\net6.0\OcrLibrary.dll
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\bin\Debug\net6.0\OcrLibrary.pdb
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.csproj.AssemblyReference.cache
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.AssemblyInfoInputs.cache
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.AssemblyInfo.cs
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.csproj.CoreCompileInputs.cache
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.dll
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\refint\OcrLibrary.dll
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\OcrLibrary.pdb
+C:\ASP.Net Apps\_OCR\Mar\OcrLibrary\obj\Debug\net6.0\ref\OcrLibrary.dll
+>>>>>>> origin/dith03

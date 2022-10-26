@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "9yuzIz5LIORRLeWa2w8uBcLop73uSKsPX3hZSEZRBB0x45TDE6mgKL/tYUo4fMFZPUHeW0WSv98EIC/f5xR/DQ==",
   "success": true,
   "projectFilePath": "E:\\Gsia\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
+=======
+  "dgSpecHash": "ID/k3z7h4oK9cOpynx6I2IEWgtAJfYmi4w9JXg6o8QMoUNmdTqMwxSUCBGjozQYEG+ofkvzgPtWg+NBcuAkU2g==",
+  "success": true,
+  "projectFilePath": "C:\\ASP.Net Apps\\_OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
+>>>>>>> origin/dith03
   "expectedPackageFiles": [
     "C:\\Users\\marma\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\marma\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
