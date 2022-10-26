@@ -8,3 +8,13 @@ D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\postdeploy.sql
 D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\predeploy.sql
 D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\OcrDb.dll
 D:\Simpacc\2022\ocr\Mar\OcrDb\obj\Debug\OcrDb.pdb
+E:\Gsia\Mar\OcrDb\bin\Debug\OcrDb.dacpac
+E:\Gsia\Mar\OcrDb\bin\Debug\OcrDb.dll
+E:\Gsia\Mar\OcrDb\bin\Debug\OcrDb.pdb
+E:\Gsia\Mar\OcrDb\obj\Debug\OcrDb.sqlproj.AssemblyReference.cache
+E:\Gsia\Mar\OcrDb\obj\Debug\Model.xml
+E:\Gsia\Mar\OcrDb\obj\Debug\refactor.xml
+E:\Gsia\Mar\OcrDb\obj\Debug\postdeploy.sql
+E:\Gsia\Mar\OcrDb\obj\Debug\predeploy.sql
+E:\Gsia\Mar\OcrDb\obj\Debug\OcrDb.dll
+E:\Gsia\Mar\OcrDb\obj\Debug\OcrDb.pdb
