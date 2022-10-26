@@ -1,0 +1,12 @@
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\bin\Debug\net6.0\OcrLibrary.deps.json
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\bin\Debug\net6.0\OcrLibrary.dll
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\bin\Debug\net6.0\OcrLibrary.pdb
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\OcrLibrary.csproj.AssemblyReference.cache
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\OcrLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\OcrLibrary.AssemblyInfoInputs.cache
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\OcrLibrary.AssemblyInfo.cs
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\OcrLibrary.csproj.CoreCompileInputs.cache
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\OcrLibrary.dll
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\refint\OcrLibrary.dll
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\OcrLibrary.pdb
+C:\ASP.Net Apps\_OCR\OcrApp\OcrLibrary\obj\Debug\net6.0\ref\OcrLibrary.dll

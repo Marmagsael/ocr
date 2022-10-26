@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ASP.Net Apps\\OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj": {}
+    "C:\\ASP.Net Apps\\_OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj": {}
   },
   "projects": {
-    "C:\\ASP.Net Apps\\OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj": {
+    "C:\\ASP.Net Apps\\_OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASP.Net Apps\\OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
+        "projectUniqueName": "C:\\ASP.Net Apps\\_OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
         "projectName": "OcrLibrary",
-        "projectPath": "C:\\ASP.Net Apps\\OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
+        "projectPath": "C:\\ASP.Net Apps\\_OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
         "packagesPath": "C:\\Users\\judit\\.nuget\\packages\\",
-        "outputPath": "C:\\ASP.Net Apps\\OCR\\OcrApp\\OcrLibrary\\obj\\",
+        "outputPath": "C:\\ASP.Net Apps\\_OCR\\OcrApp\\OcrLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

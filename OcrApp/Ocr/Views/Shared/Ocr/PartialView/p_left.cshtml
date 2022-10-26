@@ -1,0 +1,79 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+@using OcrLibrary.Data;
+@model OcrLibrary.Models.Menus.MenusOcrModel;
+
+@{
+    var cstring = Configuration.GetConnectionString("Default");
+    var menus = await MenusOCRData.GetMenusOcr(cstring);
+
+    var menuHdr = menus.Where(m => m.Type.Trim() == "Hdr");
+}
+<div class="lm-hdr">
+    <span class="lm-hdr-text">@ViewBag.UserName </span>
+    <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-left"></i></span>
+    <span class="lm-hdr-icon lm-icon hide"><i class="fa-solid fa-angles-right"></i></span>
+</div>
+
+<div class="lm-body-wrapper">
+
+
+    @{
+        var menusHdr = menus.Where(m => m?.Type.Trim() == "Hdr");
+    }
+
+    @foreach (var mHdr in menusHdr)
+    {
+        <div class="lm-body">
+            <p class="lm-category">@mHdr?.DispText</p>
+
+
+            @{
+                var idHdr = mHdr?.Id;
+                var menusSHdr = menus.Where(m => m?.IdParent == idHdr);
+            }
+
+            <div class="lm-dtls">
+
+                @foreach (var s in menusSHdr)
+                {
+                    <div class="lmd-content">
+
+                        <div class="lmd-hdr" asp-area="" asp-controller="@s?.Controller" asp-action="@s?.Action">
+                            @if (s?.Icon1.Length > 0)
+                            {
+                                <span class="lmd-hdr-icon1 lmd-icon1"><i class="@s?.Icon1"></i></span>
+                            }
+
+                            <span class="lmd-hdr-text">@s?.DispText</span>
+                        </div>
+                        @if (s?.IsWithChild == 1)
+                        {
+                            <div class="lmd-hdr-icon2">
+                                <span class="lmd-icon2-up lm-icon hide"><i class="fa-solid fa-angle-up"></i></span>
+                                <span class="lmd-icon2-down lm-icon"><i class="fa-solid fa-angle-down"></i></span>
+                            </div>
+                            var idS = s?.Id;
+                            var menusS = menus.Where(m => m?.IdParent == idS);
+
+                            <div class="lmd-subcontent-wrapper ">
+                                @foreach (var d in menusS)
+                                {
+                                    <div class="lmd-subcontent hide ">
+                                        <span class="lmd-dtl-icon1 lmd-icon1"><i class="@d?.Icon1"></i></span>
+                                        <span class="lmd-dtl-text"> @d?.DispText </span>
+                                    </div>
+                                }
+                            </div>
+                        }
+
+                    </div>
+                }
+
+            </div>
+        </div>
+    }
+</div>
+
+
