@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IVyfvGc9AZIiRbnYlu8l2PO1LxJBiwEcUSCORtJcB84VtGLSGCpZXx5WTGFtmpKbxXbWSacJoN0UHnHcBxAb+g==",
+  "dgSpecHash": "AHTMBc/gXZSaCJsETRwLSXLM+OPMbxxcGEEImmdykaZQU5sC/y+4rN0aM8sa1rpAdhJgTfBuIzQADegkW8VOgA==",
   "success": true,
-  "projectFilePath": "C:\\ASP.Net Apps\\_OCR\\OcrApp\\Ocr\\Ocr.csproj",
+  "projectFilePath": "C:\\ASP.Net Apps\\OCR\\OcrApp\\Ocr\\Ocr.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

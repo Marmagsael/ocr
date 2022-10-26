@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ID/k3z7h4oK9cOpynx6I2IEWgtAJfYmi4w9JXg6o8QMoUNmdTqMwxSUCBGjozQYEG+ofkvzgPtWg+NBcuAkU2g==",
+  "dgSpecHash": "dnYhwNg5xD5naI5EDf7oxjxM3QgwIO34OsbJWWHrrmkuh4tDivjj57k+DQwXg6nH4Uwbg/Sot3p5RfarLo5TPA==",
   "success": true,
-  "projectFilePath": "C:\\ASP.Net Apps\\_OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
+  "projectFilePath": "C:\\ASP.Net Apps\\OCR\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\judit\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\judit\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
