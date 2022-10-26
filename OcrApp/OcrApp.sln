@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcrLibrary", "..\Erwin\OcrL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PisLibrary", "..\Mar\MySql\PisLibrary\PisLibrary.csproj", "{B7DEFB7A-F000-4F71-8B7A-E818B34CECEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryMySql", "..\Mar\LibraryMySql\LibraryMySql.csproj", "{EA9CCF35-1CD6-43B9-B3E8-EBF221586CC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryMySql", "..\Mar\LibraryMySql\LibraryMySql.csproj", "{EA9CCF35-1CD6-43B9-B3E8-EBF221586CC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcrBlazor", "..\Mar\OcrBlazor\OcrBlazor.csproj", "{5E2B9B32-8602-4BFC-8FB3-9DC031AFB906}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{EA9CCF35-1CD6-43B9-B3E8-EBF221586CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9CCF35-1CD6-43B9-B3E8-EBF221586CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9CCF35-1CD6-43B9-B3E8-EBF221586CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2B9B32-8602-4BFC-8FB3-9DC031AFB906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2B9B32-8602-4BFC-8FB3-9DC031AFB906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2B9B32-8602-4BFC-8FB3-9DC031AFB906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2B9B32-8602-4BFC-8FB3-9DC031AFB906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{8C889C8A-DCD8-4DD1-8D67-ABE178B5D1FF} = {9D580EA1-69C7-4059-AB22-A26BBFCB47EF}
 		{B7DEFB7A-F000-4F71-8B7A-E818B34CECEC} = {4673E14B-4FCC-4411-AEA4-BA078508F9A1}
 		{EA9CCF35-1CD6-43B9-B3E8-EBF221586CC0} = {4673E14B-4FCC-4411-AEA4-BA078508F9A1}
+		{5E2B9B32-8602-4BFC-8FB3-9DC031AFB906} = {4673E14B-4FCC-4411-AEA4-BA078508F9A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C2CB71F-A0CE-4088-9B5E-2043B17ADFB5}
