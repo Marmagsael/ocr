@@ -172,7 +172,14 @@ background-color: var(--text-dark-hover);
     line-height: 24px;
     padding: 6px 22px 6px 35px;
     cursor: pointer;
+
 }
+.lmd-subcontent a {
+    text-decoration: none;
+    color: var(--text-light-primary);
+    width: 100%;
+}
+
 
 .lm-indent {
     padding-left: 10px;
