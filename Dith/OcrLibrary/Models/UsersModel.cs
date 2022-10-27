@@ -10,9 +10,8 @@ public class UsersModel
 
     public DateTime? EmailVerifiedAt { get; set; }
 
-    //public string? Password { get; set; }
-    public byte[]? Password { get; set; }
-
+    public byte[]? Password { get; set; }  
+    
     public string? Domain { get; set; }
 
     public string? RememberToken { get; set; }

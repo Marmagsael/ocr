@@ -1,10 +1,11 @@
-﻿using OcrLibrary.DataAccess;
-using OcrLibrary.Models;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using OcrLibrary.DataAccess;
+using OcrLibrary.Models;
 using System.Security.Claims;
 
-namespace UI.Controllers
+namespace Ocr.Controllers
 {
     public class LoginLockedController : Controller
     {
@@ -12,35 +13,35 @@ namespace UI.Controllers
         private readonly IConfiguration _config;
         public LoginLockedController(IUsersData data, IConfiguration config)
         {
-            _data = data;  
+            _data = data;
             _config = config;
 
         }
+
         public IActionResult Index()
         {
             return View();
         }
-          private string GetCoName()
+        private string GetCoName()
         {
             var CoName = _config["CompanyInfo:CompanyName"];
             return CoName;
         }
-
-        public  async Task<IActionResult> SignInWithGoogle()
+        public async Task<IActionResult> SignInWithGoogle()
         {
-            var claims          = User.Claims;
+            var claims = User.Claims;
             var emailIdentifier = ClaimTypes.Email;
-            var nameIdentifier  = ClaimTypes.Name;
+            var nameIdentifier = ClaimTypes.Name;
 
-            var email           = claims.FirstOrDefault(c => c.Type == emailIdentifier).Value;
-            var name           = claims.FirstOrDefault(c => c.Type == nameIdentifier).Value;
-            var user            = await _data.FetchUserByEmailQS(email);
+            var email = claims.FirstOrDefault(c => c.Type == emailIdentifier).Value;
+            var name = claims.FirstOrDefault(c => c.Type == nameIdentifier).Value;
+            var user = await _data.FetchUserByEmailQS(email);
 
-            if(user is null)
+            if (user is null)
             {
                 UsersModel userModel = new UsersModel();
                 userModel.Email = email;
-                
+
                 await _data.CreateUserLogin(userModel);
             }
             ViewBag.Title = GetCoName();

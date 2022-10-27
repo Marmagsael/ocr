@@ -1,6 +1,4 @@
 ﻿using OcrLibrary.Models.Login;
-
-
 namespace OcrLibrary.DataAccess.Login;
 
 public class UsersGoogleCredentialsData

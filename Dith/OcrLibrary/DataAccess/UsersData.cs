@@ -1,5 +1,4 @@
-﻿
-using Dapper;
+﻿using Dapper;
 using OcrLibrary.Models;
 
 namespace OcrLibrary.DataAccess;
@@ -85,16 +84,5 @@ public class UsersData : IUsersData
             "values (@userName, @email, HASHBYTES('SHA2_512', @password), @emailVerifiedAt, @domain, @rememberToken, @created, @idUserCompany )";
         await _sql.ExecuteCmdQS(sql, parameter, "Default");
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }

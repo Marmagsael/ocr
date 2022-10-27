@@ -1,6 +1,6 @@
 ﻿namespace OcrLibrary.Models.Menus;
 
-public class MenusOcrModel
+public  class MenusOcrModel
 {
     public int Id { get; set; }
     public int IdParent { get; set; }
@@ -13,5 +13,4 @@ public class MenusOcrModel
     public int IsWithChild { get; set; }
     public string Controller { get; set; } = string.Empty;
     public string Action { get; set; } = string.Empty;
-
 }

@@ -27,16 +27,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Mb2NrZWRcU2lnbkluV2l0aEdvb2dsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/LoginTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5UZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/RegistrationTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0cmF0aW9uVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Ocr/PartialView/p_footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX2Zvb3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Ocr/PartialView/p_left - Copy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX2xlZnQgLSBDb3B5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Ocr/PartialView/p_left.cshtml]

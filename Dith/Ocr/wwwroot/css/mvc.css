@@ -1,0 +1,95 @@
+﻿body {
+    background-color: rgb(57, 108, 73);
+    background-image: url('Images/Global/landing_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Navbar */
+#main-navbar {
+    background-color: rgb(32 72 24 / 90%)
+}
+
+    #main-navbar .navbar-brand-name {
+        color: azure;
+        font-size: x-large;
+    }
+
+    #main-navbar .nav-link {
+        text-decoration: none;
+        color: azure;
+    }
+
+/* Landing Page */
+#landing-page-container .left-context {
+    background-color: rgba(16, 104, 51,.80);
+    border-radius: 10px;
+    min-height: 60vh;
+}
+
+    #landing-page-container .left-context img {
+        padding: 2em 0 0.5em 0;
+        font-weight: 700;
+        font-size: 2.5em;
+        color: whitesmoke;
+    }
+
+    #landing-page-container .left-context .co-name {
+        font-weight: 600;
+        font-size: 2em;
+        color: rgb(2, 27, 2);
+        margin: 0 5px;
+        padding: 5px;
+        background-color: rgba(245, 249, 245, 0.5);
+    }
+
+#landing-page-container .right-context {
+    padding: 6em 0 0 5em;
+    text-align: left;
+}
+
+    #landing-page-container .right-context .title {
+        color: rgb(250, 249, 238);
+        font-size: 4em;
+        margin-bottom: 1.5rem;
+    }
+
+    #landing-page-container .right-context .subtitle {
+        font-size: 2em;
+        background-color: rgba(111, 236, 136, 0.1);
+        padding: 10px 0 10px 20px;
+        border-radius: 5px;
+        color: goldenrod;
+    }
+
+/* Login Header*/
+#login-container .login-header p {
+    margin: 0;
+}
+
+#login-container .login-header .welcome-msg {
+    font-size: 1.25rem;
+    color: darkgrey;
+}
+
+#login-container .login-header .comp-name {
+    font-size: 2rem;
+    color: green;
+}
+
+/* Login Form */
+#login-container .login-bg {
+    background-image: url('/images/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login-container .login-form {
+    background-color: rgba(255,255,255,.7);
+    padding: 15px;
+    height: 88vh;
+}
+
+#login-container .inner-container {
+    height: 100%;
+}
