@@ -22,7 +22,7 @@
 
 #ocrLeft {
     border-right: 1px solid lightgray;
-    width: 245px;
+    width: 280px;
     user-select: none;
     -moz-user-select: none;
     overflow:hidden;
@@ -38,7 +38,8 @@
 
 
 #ocrRight {
-    padding: 24px 32px
+    padding: 24px 32px;
+    width: calc(100vw - 280px);
 }
 
 #ocrFooter {
@@ -144,8 +145,8 @@
 
 
 .lmd-hdr:hover {
-color: black;
-background-color: var(--text-dark-hover);
+    color: black;
+    background-color: var(--text-dark-hover);
 }
 
 .lmd-hdr-icon2 {
@@ -169,15 +170,29 @@ background-color: var(--text-dark-hover);
 }
 
 .lmd-subcontent {
-    line-height: 24px;
-    padding: 6px 22px 6px 35px;
-    cursor: pointer;
-
+    position: relative;
 }
 .lmd-subcontent a {
+    display: block;
     text-decoration: none;
     color: var(--text-light-primary);
     width: 100%;
+    line-height: 24px;
+    padding: 6px 22px 6px 35px;
+    cursor: pointer;
+}
+
+
+.lmd-number-badge{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    display: inline-block;
+    background-color: #00800026;
+    line-height: 22px;
+    width: 30px;
+    border-radius: 48px;
+    text-align: center;
 }
 
 
@@ -197,4 +212,25 @@ background-color: var(--text-dark-hover);
 .lmd-isActive-icon {
     color: var(--text-green-primary);
 }
+
+.lmd-subcontent-isActive{
+    background-color: transparent !important;
+    font-weight:bold !important;
+
+}
+
+.lmd-hdr[menu-title]:hover:after {
+    content: attr(menu-title);
+    position: fixed;
+    left: 50px;
+    padding: 5px 10px;
+    display: block;
+    z-index: 100;
+    background-color: #000000;
+    color: #ffffff;
+    max-width: 200px;
+    text-decoration: none;
+    text-align:center;
+    z-index: 100;
+  }
 

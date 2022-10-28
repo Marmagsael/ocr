@@ -50,7 +50,7 @@ namespace Ocr.Controllers
         public async Task<IActionResult> ValidateUser(string Email, string Password)
         {
             var output = await _data.GetUserByEmailQS(Email, Password);
-           if (output is not null)
+            if (output is not null)
             {
                 var claims = new List<Claim>();
                 claims.Add(new Claim("username", Email));
@@ -61,13 +61,14 @@ namespace Ocr.Controllers
                 var claimPrincipal = new ClaimsPrincipal(claimsIdentity);
                 await HttpContext.SignInAsync(claimPrincipal);
 
+                //if (returnUrl is null)  return Redirect("/");
                 return Redirect("/LoginLocked/SignInWithGoogle");
             }
             ViewData["errormsg"] = "Invalid Username or Password";
             return View("login");
         }
 
-     
+
 
         private string GetCoName()
         {

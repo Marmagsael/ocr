@@ -111,31 +111,67 @@
                 }
             }
         });
-
-        function _06AddActiveClassToMenu(el) {
-
-            let menuWrapper = $(el);
-            var menuText = $(el).children('.lmd-hdr-text');
-            var menuIcon = $(el).children('.lmd-hdr-icon1');
-
-            menuWrapper.addClass('lmd-isActive-Menu')
-
-            menuText.addClass('lmd-isActive-text');
-            menuIcon.addClass('lmd-isActive-icon');
-        };
-
-        function _07RemoveActiveClassToMenu() {
-            $('.lmd-hdr').removeClass('lmd-isActive-Menu')
-            $('.lmd-hdr').children('.lmd-hdr-text').removeClass('lmd-isActive-text');
-            $('.lmd-hdr').children('.lmd-hdr-icon1').removeClass('lmd-isActive-icon');
-        };
-
     }
+    function _06AddActiveClassToMenu(el) {
+
+        let menuWrapper = $(el);
+        let menuText = $(el).children('.lmd-hdr-text');
+        let menuIcon = $(el).children('.lmd-hdr-icon1');
+
+        menuWrapper.addClass('lmd-isActive-Menu')
+
+        menuText.addClass('lmd-isActive-text');
+        menuIcon.addClass('lmd-isActive-icon');
+    };
+
+    function _07RemoveActiveClassToMenu() {
+        $('.lmd-hdr').removeClass('lmd-isActive-Menu')
+        $('.lmd-hdr').children('.lmd-hdr-text').removeClass('lmd-isActive-text');
+        $('.lmd-hdr').children('.lmd-hdr-icon1').removeClass('lmd-isActive-icon');
+    };
+
+    function _08MakeMenuActiveByUrl() {
+        var currentpath = location.pathname;
+        $('.lm-body .lm-dtls .lmd-content').each(function () {
+            if ($(this).children('.lmd-subcontent-wrapper').length > 0) {
+                $('.lm-body .lm-dtls .lmd-content .lmd-subcontent-wrapper .lmd-subcontent a ').each(function () {
+                    let submenuPath = $(this);
+                    // if the current path is like this link, make it active
+                    if (submenuPath.attr('href').indexOf(currentpath) !== -1) {
+                        _06AddActiveClassToMenu(submenuPath.parent().parent().parent().children('.lmd-hdr'));
+                        submenuPath.parent().parent().children('.lmd-subcontent').removeClass('hide');
+                        submenuPath.parent().parent().parent().children('.lmd-hdr-icon2').children("span:first").removeClass('hide');;
+                        submenuPath.parent().parent().parent().children('.lmd-hdr-icon2').children("span:last").hide();
+                        submenuPath.addClass('lmd-subcontent-isActive');
+                    }   
+
+                })
+            } else {
+                $('.lm-body .lm-dtls .lmd-content  a ').each(function () {
+                    let menuPath = $(this);
+                    // if the current path is like this link, make it active
+                    if (menuPath.attr('href').indexOf(currentpath) !== -1) {
+                      return _06AddActiveClassToMenu($(this));
+                    } 
+                })
+            }
+        })
+    };
+
+    function _09AddTooltipWhenHovered(){
+       
+    }
+
+    
+
+ 
     // ---- Call Functions -------------
     _00DocumentIsClicked();
     _01ToggleHdrDropDown();
     _02ToggleLeftMenu();
     _05ToggleSubMenus();
+    _08MakeMenuActiveByUrl();
+    _09AddTooltipWhenHovered();
 
 
 })
