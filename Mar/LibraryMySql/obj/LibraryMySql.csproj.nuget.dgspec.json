@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Gsia\\Mar\\LibraryMySql\\LibraryMySql.csproj": {}
+    "D:\\Development\\Web\\Simpacc\\Mar\\LibraryMySql\\LibraryMySql.csproj": {}
   },
   "projects": {
-    "E:\\Gsia\\Mar\\LibraryMySql\\LibraryMySql.csproj": {
+    "D:\\Development\\Web\\Simpacc\\Mar\\LibraryMySql\\LibraryMySql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gsia\\Mar\\LibraryMySql\\LibraryMySql.csproj",
+        "projectUniqueName": "D:\\Development\\Web\\Simpacc\\Mar\\LibraryMySql\\LibraryMySql.csproj",
         "projectName": "LibraryMySql",
-        "projectPath": "E:\\Gsia\\Mar\\LibraryMySql\\LibraryMySql.csproj",
-        "packagesPath": "C:\\Users\\marma\\.nuget\\packages\\",
-        "outputPath": "E:\\Gsia\\Mar\\LibraryMySql\\obj\\",
+        "projectPath": "D:\\Development\\Web\\Simpacc\\Mar\\LibraryMySql\\LibraryMySql.csproj",
+        "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Web\\Simpacc\\Mar\\LibraryMySql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
