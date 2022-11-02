@@ -1,14 +1,20 @@
 ﻿@{
     Layout = "~/Views/Shared/Ocr/_OcrLayout.cshtml";
+    var scopeClaims = User?.Claims.FirstOrDefault(c => c.Type.Equals("Name"))?.Value;
+
 }
 
 <h1>Dashboard</h1>
 
-@{
-   Layout = "~/Views/Shared/Ocr/_OcrLayout.cshtml";
+@if (scopeClaims == null)
+{
+    <h2>Welcome @User?.Identity?.Name</h2>
+}
+else
+{
+    <h2>Welcome @scopeClaims</h2>
 }
 
-<h1>Welcome @User.Identity.Name</h1>
 
 <ul>
     @foreach (var c in User.Claims)

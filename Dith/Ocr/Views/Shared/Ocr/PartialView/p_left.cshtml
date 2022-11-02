@@ -11,12 +11,23 @@
     var menuHdr = menus.Where(m => m.Type.Trim() == "Hdr");
 }
 <div class="lm-hdr">
-    <span class="lm-hdr-text">@User.Identity.Name </span>
-    @foreach (var item in @User.Identities)
-    {
-        @item <br />
-    }
-   @* claims.FirstOrDefault(c => c.Type == emailIdentifier).Value;*@
+
+    <span class="lm-hdr-text">
+        @{
+            var scopeClaims = User?.Claims.FirstOrDefault(c => c.Type.Equals("Name"))?.Value;
+        }
+
+        @if (scopeClaims == null)
+        {
+            <span class="lm-hdr-text">@User?.Identity?.Name</span>
+        }
+        else
+        {
+            <span class="lm-hdr-text">@scopeClaims</span>
+        }
+    </span>
+
+   
     <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-left"></i></span>
     <span class="lm-hdr-icon lm-icon hide"><i class="fa-solid fa-angles-right"></i></span>
 </div>
