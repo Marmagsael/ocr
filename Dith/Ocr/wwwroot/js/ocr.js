@@ -159,7 +159,12 @@
     };
 
     function _09AddTooltipWhenHovered(){
-       
+        $(".lmd-hdr").hover(function () {
+            if ($('#ocrLeft').hasClass('lm-collapse')) {
+                $(this).css('cursor', 'pointer').attr('myitle');
+            }
+           
+        });
     }
 
     

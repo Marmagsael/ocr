@@ -46,7 +46,8 @@ namespace Ocr.Controllers
             }
             ViewBag.Title = GetCoName();
             ViewBag.UserName = name;
-            return View();
+            return Redirect("/Dashboard");
+
         }
 
         public async Task<IActionResult> logout()

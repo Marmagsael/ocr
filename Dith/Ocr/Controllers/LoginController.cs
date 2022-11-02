@@ -49,23 +49,26 @@ namespace Ocr.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> ValidateUser(string Email, string Password)
         {
+
             var output = await _data.GetUserByEmailQS(Email, Password);
             if (output is not null)
             {
                 var claims = new List<Claim>();
+              
                 claims.Add(new Claim("username", Email));
                 claims.Add(new Claim(ClaimTypes.NameIdentifier, Email));
                 claims.Add(new Claim(ClaimTypes.Email, Email));
-
+                claims.Add(new Claim("Name", output.UserName!));
+                claims.Add(new Claim("User.Identity.Name", output.UserName!));
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var claimPrincipal = new ClaimsPrincipal(claimsIdentity);
                 await HttpContext.SignInAsync(claimPrincipal);
 
                 //if (returnUrl is null)  return Redirect("/");
-                return Redirect("/LoginLocked/SignInWithGoogle");
+                return Redirect("/Dashboard");
             }
             ViewData["errormsg"] = "Invalid Username or Password";
-            return View("login");
+            return View("~/Views/Login/Index.cshtml");
         }
 
 
@@ -103,7 +106,8 @@ namespace Ocr.Controllers
                 userModel.IdUserCompany = null;
 
                 await _data.CreateUserRegister(userModel);
-                return Redirect("/LoginLocked/SignInWithGoogle");
+                return Redirect("/Dashboard");
+
             }
             ViewData["errormsg"] = "Email already in use";
             return View("login/Register");
