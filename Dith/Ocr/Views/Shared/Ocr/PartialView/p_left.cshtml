@@ -12,13 +12,31 @@
 }
 <div class="lm-hdr">
     <span class="lm-hdr-text">@User.Identity.Name </span>
+    @foreach (var item in @User.Identities)
+    {
+        @item <br />
+    }
+   @* claims.FirstOrDefault(c => c.Type == emailIdentifier).Value;*@
     <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-left"></i></span>
     <span class="lm-hdr-icon lm-icon hide"><i class="fa-solid fa-angles-right"></i></span>
 </div>
 
+@* Dashboad *@
 <div class="lm-body-wrapper">
+    <div class="lm-body">
+        <div class="lm-dtls">
+            <div class="lmd-content">
+                <a class="lmd-hdr" asp-area="" asp-controller="Dashboard" asp-action="Index" myTitle="Dashboard">
+                        <span class="lmd-hdr-icon1 lmd-icon1"><i class="fa-solid fa-gauge-high"></i></span>
+                    <span class="lmd-hdr-text">Dashboard</span>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
+
+    @* -------------------------- Loop Other Menus ---------------------------- *@
     @{
         var menusHdr = menus.Where(m => m?.Type.Trim() == "Hdr");
     }
