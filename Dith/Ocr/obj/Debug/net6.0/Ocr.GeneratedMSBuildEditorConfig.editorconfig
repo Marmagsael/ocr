@@ -8,169 +8,169 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ocr
 build_property.RootNamespace = Ocr
-build_property.ProjectDir = C:\ASP.Net Apps\_OCR\Dith\Ocr\
+build_property.ProjectDir = D:\Development\Web\Simpacc\Dith\Ocr\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ASP.Net Apps\_OCR\Dith\Ocr
+build_property.MSBuildProjectDirectory = D:\Development\Web\Simpacc\Dith\Ocr
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Home/Index.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Home/Privacy.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/LoginLocked/SignInWithGoogle.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/LoginLocked/SignInWithGoogle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5Mb2NrZWRcU2lnbkluV2l0aEdvb2dsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/ForgotPassword.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Login/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/Index.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/LoginTest.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Login/LoginTest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5UZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/Register.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Login/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/RegistrationTest.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Login/RegistrationTest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0cmF0aW9uVGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Login/Signup.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Login/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Bank/_26Overview.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Bank/_26Overview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxCYW5rXF8yNk92ZXJ2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Bank/_27CollectedStatements.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Bank/_27CollectedStatements.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxCYW5rXF8yN0NvbGxlY3RlZFN0YXRlbWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Bank/_28ProcessedStatements.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Bank/_28ProcessedStatements.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxCYW5rXF8yOFByb2Nlc3NlZFN0YXRlbWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Bank/_29Transactions.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Bank/_29Transactions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxCYW5rXF8yOVRyYW5zYWN0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Costs/_14Inbox.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Costs/_14Inbox.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxDb3N0c1xfMTRJbmJveC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Costs/_15InProcessing.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Costs/_15InProcessing.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxDb3N0c1xfMTVJblByb2Nlc3NpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Costs/_16ToReview.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Costs/_16ToReview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxDb3N0c1xfMTZUb1Jldmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Costs/_17Ready.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Costs/_17Ready.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxDb3N0c1xfMTdSZWFkeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Costs/_18Archive.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Costs/_18Archive.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxDb3N0c1xfMThBcmNoaXZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/ExpenseReports/_24Inbox.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/ExpenseReports/_24Inbox.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxFeHBlbnNlUmVwb3J0c1xfMjRJbmJveC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/ExpenseReports/_25Archive.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/ExpenseReports/_25Archive.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxFeHBlbnNlUmVwb3J0c1xfMjVBcmNoaXZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Sales/_19Inbox.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Sales/_19Inbox.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxTYWxlc1xfMTlJbmJveC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Sales/_20InProcessing.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Sales/_20InProcessing.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxTYWxlc1xfMjBJblByb2Nlc3NpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Sales/_21ToReview.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Sales/_21ToReview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxTYWxlc1xfMjFUb1Jldmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Sales/_22Ready.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Sales/_22Ready.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxTYWxlc1xfMjJSZWFkeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/Sales/_23Archive.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/Sales/_23Archive.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxTYWxlc1xfMjNBcmNoaXZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/_10Categories.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/_10Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxfMTBDYXRlZ29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/_11Projects.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/_11Projects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxfMTFQcm9qZWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/_12BankAccounts.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/_12BankAccounts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxfMTJCYW5rQWNjb3VudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/_13PaymentMethods.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/_13PaymentMethods.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxfMTNQYXltZW50TWV0aG9kcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/_8Suppliers.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/_8Suppliers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxfOFN1cHBsaWVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/MenuOcr/_9Customers.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/MenuOcr/_9Customers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudU9jclxfOUN1c3RvbWVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Error.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Ocr/PartialView/p_footer.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Shared/Ocr/PartialView/p_footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX2Zvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Ocr/PartialView/p_left.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Shared/Ocr/PartialView/p_left.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX2xlZnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Ocr/PartialView/p_top.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Shared/Ocr/PartialView/p_top.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxQYXJ0aWFsVmlld1xwX3RvcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/Ocr/_OcrLayout.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Shared/Ocr/_OcrLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9jclxfT2NyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/_ViewImports.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/_ViewStart.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ASP.Net Apps/_OCR/Dith/Ocr/Views/Shared/_Layout.cshtml]
+[D:/Development/Web/Simpacc/Dith/Ocr/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2xqcb2k98r
