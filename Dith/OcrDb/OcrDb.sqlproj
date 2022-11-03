@@ -6,7 +6,7 @@
     <Name>OcrDb</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{150ce7c9-9cd0-45eb-be43-7c73d6668a51}</ProjectGuid>
+    <ProjectGuid>{f32acd12-c5fe-4ef9-8807-fea7a924cdcf}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>

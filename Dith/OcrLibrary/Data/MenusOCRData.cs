@@ -1,10 +1,9 @@
-﻿using System.Data.SqlClient;
-using System.Data;
+﻿using Dapper;
 using OcrLibrary.Models.Menus;
-using Dapper;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace OcrLibrary.Data;
-
 public static class MenusOCRData
 {
 
@@ -17,8 +16,4 @@ public static class MenusOCRData
 
         return rows.ToList();
     }
-
-
-
 }
-

@@ -719,7 +719,15 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+<<<<<<< HEAD
           "projectReferences": {}
+=======
+          "projectReferences": {
+            "D:\\Development\\Web\\Simpacc\\OcrApp\\OcrLibrary\\OcrLibrary.csproj": {
+              "projectPath": "D:\\Development\\Web\\Simpacc\\OcrApp\\OcrLibrary\\OcrLibrary.csproj"
+            }
+          }
+>>>>>>> dith05a
         }
       },
       "warningProperties": {

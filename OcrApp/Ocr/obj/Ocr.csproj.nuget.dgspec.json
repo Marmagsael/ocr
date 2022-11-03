@@ -4,6 +4,7 @@
     "D:\\Development\\Web\\Simpacc\\OcrApp\\Ocr\\Ocr.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "D:\\Development\\Web\\Simpacc\\OcrApp\\Ocr\\Ocr.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +13,16 @@
         "projectPath": "D:\\Development\\Web\\Simpacc\\OcrApp\\Ocr\\Ocr.csproj",
         "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
         "outputPath": "D:\\Development\\Web\\Simpacc\\OcrApp\\Ocr\\obj\\",
+=======
+    "D:\\Development\\Web\\Simpacc\\OcrApp\\OcrLibrary\\OcrLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Web\\Simpacc\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
+        "projectName": "OcrLibrary",
+        "projectPath": "D:\\Development\\Web\\Simpacc\\OcrApp\\OcrLibrary\\OcrLibrary.csproj",
+        "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Web\\Simpacc\\OcrApp\\OcrLibrary\\obj\\",
+>>>>>>> dith05a
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,7 +58,115 @@
           "dependencies": {
             "Google.Cloud.Vision.V1": {
               "target": "Package",
+<<<<<<< HEAD
               "version": "[3.2.0, )"
+=======
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\Web\\Simpacc\\OcrApp\\Ocr\\Ocr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Web\\Simpacc\\OcrApp\\Ocr\\Ocr.csproj",
+        "projectName": "Ocr",
+        "projectPath": "D:\\Development\\Web\\Simpacc\\OcrApp\\Ocr\\Ocr.csproj",
+        "packagesPath": "C:\\Users\\Mar\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Web\\Simpacc\\OcrApp\\Ocr\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Development\\Web\\Simpacc\\OcrApp\\OcrLibrary\\OcrLibrary.csproj": {
+                "projectPath": "D:\\Development\\Web\\Simpacc\\OcrApp\\OcrLibrary\\OcrLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+>>>>>>> dith05a
             }
           },
           "imports": [

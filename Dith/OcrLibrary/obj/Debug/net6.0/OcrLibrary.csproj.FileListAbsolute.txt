@@ -10,3 +10,15 @@ C:\ASP.Net Apps\_OCR\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.dll
 C:\ASP.Net Apps\_OCR\Dith\OcrLibrary\obj\Debug\net6.0\refint\OcrLibrary.dll
 C:\ASP.Net Apps\_OCR\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.pdb
 C:\ASP.Net Apps\_OCR\Dith\OcrLibrary\obj\Debug\net6.0\ref\OcrLibrary.dll
+D:\Development\Web\Simpacc\Dith\OcrLibrary\bin\Debug\net6.0\OcrLibrary.deps.json
+D:\Development\Web\Simpacc\Dith\OcrLibrary\bin\Debug\net6.0\OcrLibrary.dll
+D:\Development\Web\Simpacc\Dith\OcrLibrary\bin\Debug\net6.0\OcrLibrary.pdb
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.csproj.AssemblyReference.cache
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.AssemblyInfoInputs.cache
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.AssemblyInfo.cs
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.csproj.CoreCompileInputs.cache
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.dll
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\refint\OcrLibrary.dll
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\OcrLibrary.pdb
+D:\Development\Web\Simpacc\Dith\OcrLibrary\obj\Debug\net6.0\ref\OcrLibrary.dll

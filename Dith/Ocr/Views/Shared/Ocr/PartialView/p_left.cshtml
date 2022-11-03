@@ -1,85 +1,115 @@
 ﻿@using Microsoft.Extensions.Configuration
 @inject IConfiguration Configuration
 
-@using OcrLibrary.Data; 
-@model OcrLibrary.Models.Menus.MenusOcrModel
+@using OcrLibrary.Data;
+@using System.Security.Claims
+@model OcrLibrary.Models.Menus.MenusOcrModel;
 
 @{
     var cstring = Configuration.GetConnectionString("Default");
-    var menus       = await MenusOCRData.GetMenusOcr(cstring);
+    var menus = await MenusOCRData.GetMenusOcr(cstring);
 
-    var menuHdr = menus.Where(m => m?.Type.Trim() == "Hdr"); 
+    var menuHdr = menus.Where(m => m.Type.Trim() == "Hdr");
 }
-
 <div class="lm-hdr">
-    <span class="lm-hdr-text">@ViewBag.UserName </span>
+    <span class="lm-hdr-text">
+        @{  var scopeClaims = User?.Claims.FirstOrDefault(c => c.Type.Equals("Name"))?.Value; }
+
+        @if (scopeClaims==null) {   <span>@User?.Identity?.Name</span> } else 
+                                {   <span>@scopeClaims</span>}
+    </span>
+   
     <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-left"></i></span>
-    <span class="lm-hdr-icon lm-icon"><i class="fa-solid fa-angles-right"></i></span>
+    <span class="lm-hdr-icon lm-icon hide"><i class="fa-solid fa-angles-right"></i></span>
 </div>
 
-<div>
+@* Dashboad *@
+<div class="lm-body-wrapper">
+    <div class="lm-body">
+        <div class="lm-dtls">
+            <div class="lmd-content">
+                <a class="lmd-hdr" asp-area="" asp-controller="Dashboard" asp-action="Index" myTitle="Dashboard">
+                        <span class="lmd-hdr-icon1 lmd-icon1"><i class="fa-solid fa-gauge-high"></i></span>
+                    <span class="lmd-hdr-text">Dashboard</span>
+                </a>
+            </div>
+        </div>
+    </div>
 
-    Count of Menus : @menus.Count(); 
 
-    <hr />
 
+    @* -------------------------- Loop Other Menus ---------------------------- *@
     @{
         var menusHdr = menus.Where(m => m?.Type.Trim() == "Hdr");
     }
 
     @foreach (var mHdr in menusHdr)
     {
-        <div class="lm-hdr"> 
-            
-            @mHdr?.DispText @mHdr?.Type 
+        <div class="lm-body">
+            <p class="lm-category">@mHdr?.DispText</p>
 
-            @{ 
+
+            @{
                 var idHdr = mHdr?.Id;
                 var menusSHdr = menus.Where(m => m?.IdParent == idHdr);
-             }
 
-             <div class="dtl1">
-
-                @foreach (var s in menusSHdr)
-            {
-                <div class="lm-dtl"> 
-                    @if(s?.Icon1.Length > 0) {
-                            <span class="lm-icon1"><i class="@s?.Icon1"></i></span>
-                    }
-
-                    <span class="lm-dtl-text">@s?.DispText</span>
-
-                    @if (s?.IsWithChild == 1)
-                    {
-                        <span class=""><i class="fa-solid fa-angle-up"></i></span>
-                        <span class=""><i class="fa-solid fa-angle-down"></i></span>
-
-                        var idS     = s?.Id;
-                        var menusS = menus.Where(m => m?.IdParent == idS);
-
-
-                        <div class="dtl2">
-
-                            @foreach (var d in menusS)
-                            {
-                                <span class="lm-dtl-text"> @d?.DispText </span>
-                            }
-
-                        </div>
-
-                    }
-
-                </div>
-                
             }
 
-            </div>
+            <div class="lm-dtls">
 
+                @foreach (var s in menusSHdr)
+                {
+                    <div class="lmd-content">
+
+                        @if (!string.IsNullOrEmpty(@s?.Action)){
+                            <a class="lmd-hdr" asp-area="" asp-controller="@s?.Controller" asp-action="@s?.Action" >
+                            @if (s?.Icon1.Length > 0)
+                            {
+                                 <span class="lmd-hdr-icon1 lmd-icon1"><i class="@s?.Icon1"></i></span>
+                            }
+                                <span class="lmd-hdr-text">@s?.DispText</span>
+                            </a>
+                        }
+                        else
+                            {
+                            <div class="lmd-hdr">
+                                @if (s?.Icon1.Length > 0)
+                                {
+                                    <span class="lmd-hdr-icon1 lmd-icon1"><i class="@s?.Icon1"></i></span>
+                                }
+                                <span class="lmd-hdr-text">@s?.DispText</span>
+                            </div>
+                        }
+                           @if (s?.IsWithChild == 1)
+                                {
+                                    <div class="lmd-hdr-icon2">
+                                        <span class="lmd-icon2-up lm-icon hide"><i class="fa-solid fa-angle-up"></i></span>
+                                        <span class="lmd-icon2-down lm-icon"><i class="fa-solid fa-angle-down"></i></span>
+                                    </div>
+                            var idS = s?.Id;
+                            var menusS = menus.Where(m => m?.IdParent == idS);
+
+                                        <div class="lmd-subcontent-wrapper ">
+                                            @foreach (var d in menusS)
+                                {
+                                                <div class="lmd-subcontent hide ">
+                                                    <a  asp-area="" asp-controller="@d?.Controller" asp-action="@d?.Action">
+                                                        <span class="lmd-dtl-icon1 lmd-icon1"><i class="@d?.Icon1"></i></span>
+                                                        <span class="lmd-dtl-text"> @d?.DispText </span>
+                                                    </a>
+                                                    <span class="lmd-number-badge">0</span>
+                                                </div>
+                                                
+                                }
+                                        </div>
+                        }
+
+                                </div>
+                }
+
+            </div>
         </div>
     }
-
-
-
 </div>
 
 

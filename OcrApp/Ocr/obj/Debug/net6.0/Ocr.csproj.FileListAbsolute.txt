@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.csproj.AssemblyReference.cache
 D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.GeneratedMSBuildEditorConfig.editorconfig
 D:\Simpacc\2022\ocr\OcrApp\Ocr\obj\Debug\net6.0\Ocr.AssemblyInfoInputs.cache
@@ -16,6 +17,8 @@ C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.csproj.CoreCompileInputs.ca
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.MvcApplicationPartsAssemblyInfo.cache
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.RazorAssemblyInfo.cache
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.RazorAssemblyInfo.cs
+=======
+>>>>>>> dith05a
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\bin\Debug\net6.0\appsettings.Development.json
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\bin\Debug\net6.0\appsettings.json
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\bin\Debug\net6.0\Ocr.staticwebassets.runtime.json
@@ -272,6 +275,14 @@ C:\ASP.Net Apps\_OCR\OcrApp\Ocr\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\bin\Debug\net6.0\OcrLibrary.dll
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\bin\Debug\net6.0\OcrLibrary.pdb
+C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.csproj.AssemblyReference.cache
+C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.AssemblyInfoInputs.cache
+C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.AssemblyInfo.cs
+C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.csproj.CoreCompileInputs.cache
+C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.MvcApplicationPartsAssemblyInfo.cache
+C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.RazorAssemblyInfo.cache
+C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\Ocr.RazorAssemblyInfo.cs
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\staticwebassets.build.json
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\staticwebassets.development.json
 C:\ASP.Net Apps\_OCR\OcrApp\Ocr\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

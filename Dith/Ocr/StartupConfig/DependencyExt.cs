@@ -1,12 +1,11 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace Ocr.StartupConfig;
-
 public static class DependencyExt
 {
+
     public static void AddAuthenticationServices(this WebApplicationBuilder builder)
     {
         builder.Services.AddAuthorization(
@@ -15,17 +14,12 @@ public static class DependencyExt
                 options.FallbackPolicy = new AuthorizationPolicyBuilder()
                     .RequireAuthenticatedUser()
                     .Build();
-
-
             }
        );
-
-        // builder.Services.AddAuthentication("Bearer");
         builder.Services.AddAuthentication(options =>
         {
             options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
             options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
-            /* options.DefaultChallengeScheme = "OpenId"; */
         }
             )
                 .AddCookie(options =>
@@ -37,15 +31,10 @@ public static class DependencyExt
                     {
                         OnSigningIn = async context =>
                         {
-                            //return HttpsRedirectionServicesExtensions.AddHttpsRedirection();
-                            //context.HttpContext.User.Claims.ToList();
-
                             await Task.CompletedTask;
                         },
                         OnSignedIn = async context =>
                         {
-                            /*var claims = new List<Claim>();
-                            claims.Add(new Claim("OpenIdConnect", "OpenIdConnectValue"));*/
                             await Task.CompletedTask;
                         },
                         OnValidatePrincipal = async context =>
@@ -63,14 +52,5 @@ public static class DependencyExt
                     options.CallbackPath = "/auth";
                     options.AuthorizationEndpoint += "?prompt=consent";
                 });
-        /*.AddOpenIdConnect("OpenId", options =>
-        {
-            options.Authority = "https://accounts.google.com";
-            options.ClientId =  builder.Configuration.GetValue<string>("OpenIdConnect:ClientId");
-            options.ClientSecret = builder.Configuration.GetValue<string>("OpenIdConnect:ClientSecret");
-            options.CallbackPath = builder.Configuration.GetValue<string>("OpenIdConnect:CallbackPath");
-            options.GetClaimsFromUserInfoEndpoint = true;
-        });   */
-
     }
 }

@@ -1,0 +1,236 @@
+﻿:root {
+    --bg-navbar: rgb(32 72 24 / 90%);
+    --text-light-primary: #212427;
+    --text-dark-primary: #ffffff;
+    --text-green-primary: green;
+    --text-dark-hover: #0080000d /*#90ee9033*/;
+}
+
+#ocrTop {
+    background-color: var(--bg-navbar);
+    border-bottom: 1px solid lightgray;
+    min-height: 56px
+}
+
+#ocrBody {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    height: calc(100vh - 80px);
+}
+
+
+
+#ocrLeft {
+    border-right: 1px solid lightgray;
+    width: 280px;
+    user-select: none;
+    -moz-user-select: none;
+    overflow:hidden;
+}
+
+.lm-collapse {
+    width: 65px !important;
+}
+
+.hide{
+    display:none;
+}
+
+
+#ocrRight {
+    padding: 24px 32px;
+    width: calc(100vw - 280px);
+}
+
+#ocrFooter {
+}
+
+/* --------- Navbar ---------*/
+#ocrTop .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 20px;
+}
+
+#ocrTop .navbar-brand {
+    text-decoration: none;
+    color: var(--text-dark-primary);
+}
+
+#ocrTop .nav-dd-user-img {
+    position: relative;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#ocrTop .nav-dd-dtls {
+    position: absolute;
+    right: 10px;
+    top: 58px;
+    z-index: 5;
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    padding: 0.5rem 0;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    min-width: 200px;
+}
+
+#ocrTop .nav-dd-item:not(:last-of-type) {
+    border-bottom: 1px solid lightgray;
+}
+
+#ocrTop .nav-dd-link {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: var(--text-light-primary);
+    padding: 0.25rem 1rem;
+}
+
+#ocrTop .nav-dd-link:hover {
+    background-color: var(--text-dark-hover);
+}
+
+/* --------- Menus -------------- */
+
+.lm-hdr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 22px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.lm-hdr-icon{
+    cursor:pointer;
+    padding-left:5px;
+}
+
+.lm-body{
+    white-space:nowrap
+}
+
+.lm-category {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0 20px;
+    color: lightgray;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--text-green-primary);
+}
+
+.lmd-content {
+    position:relative;
+}
+
+
+.lmd-hdr {
+    height: 48px;
+    line-height: 24px;
+    padding: 12px 22px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: var(--text-light-primary);
+}
+
+
+.lmd-hdr:hover {
+    color: black;
+    background-color: var(--text-dark-hover);
+}
+
+.lmd-hdr-icon2 {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    cursor: pointer;
+    z-index:-1;
+}
+
+.lmd-icon1{
+    display:inline-block;
+    width:20px;
+    text-align:center;
+}
+.lmd-hdr-text, .lmd-dtl-text{
+    margin-left:8px;
+}
+.lmd-subcontent-wrapper {
+    background-color: var(--text-dark-hover);
+}
+
+.lmd-subcontent {
+    position: relative;
+}
+.lmd-subcontent a {
+    display: block;
+    text-decoration: none;
+    color: var(--text-light-primary);
+    width: 100%;
+    line-height: 24px;
+    padding: 6px 22px 6px 35px;
+    cursor: pointer;
+}
+
+
+.lmd-number-badge{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    display: inline-block;
+    background-color: #00800026;
+    line-height: 22px;
+    width: 30px;
+    border-radius: 48px;
+    text-align: center;
+}
+
+
+.lm-indent {
+    padding-left: 10px;
+}
+
+/* Class to apply when menu and submenu are active */
+.lmd-isActive-Menu {
+    background: #00800026 !important;
+}
+
+.lmd-isActive-text {
+    font-weight: bold;
+}
+
+.lmd-isActive-icon {
+    color: var(--text-green-primary);
+}
+
+.lmd-subcontent-isActive{
+    background-color: transparent !important;
+    font-weight:bold !important;
+
+}
+
+.lmd-hdr[menu-title]:hover:after {
+    content: attr(menu-title);
+    position: fixed;
+    left: 50px;
+    padding: 5px 10px;
+    display: block;
+    z-index: 100;
+    background-color: #000000;
+    color: #ffffff;
+    max-width: 200px;
+    text-decoration: none;
+    text-align:center;
+    z-index: 100;
+  }
+
