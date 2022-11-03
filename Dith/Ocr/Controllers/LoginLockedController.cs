@@ -45,7 +45,8 @@ namespace Ocr.Controllers
                 await _data.CreateUserLogin(userModel);
             }
             ViewBag.Title = GetCoName();
-            ViewBag.UserName = name;
+            
+            //ViewBag.UserName = name;
             return Redirect("/Dashboard");
 
         }

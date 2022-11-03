@@ -33,8 +33,8 @@ namespace Ocr.Controllers
             var emailIdentifier = ClaimTypes.Email;
             var nameIdentifier = ClaimTypes.Name;
 
-            var email = claims.FirstOrDefault(c => c.Type == emailIdentifier).Value;
-            var name = claims.FirstOrDefault(c => c.Type == nameIdentifier).Value;
+            var email = claims?.FirstOrDefault(c => c.Type == emailIdentifier).Value;
+            var name = claims?.FirstOrDefault(c => c.Type == nameIdentifier).Value;
             var user = await _data.FetchUserByEmailQS(email);
 
             if (user is null)
