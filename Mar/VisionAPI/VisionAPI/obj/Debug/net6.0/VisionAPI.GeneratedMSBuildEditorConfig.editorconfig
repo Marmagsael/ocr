@@ -8,23 +8,9 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VisionAPI
 build_property.RootNamespace = VisionAPI
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> dith05a
 build_property.ProjectDir = D:\Development\Web\Simpacc\Mar\VisionAPI\VisionAPI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Development\Web\Simpacc\Mar\VisionAPI\VisionAPI
-<<<<<<< HEAD
-=======
-=======
-build_property.ProjectDir = C:\ASP.Net Apps\_OCR\Mar\VisionAPI\VisionAPI\
-build_property.RazorLangVersion = 6.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ASP.Net Apps\_OCR\Mar\VisionAPI\VisionAPI
->>>>>>> d373ff7a59d3da4ee072999249cea848cde5e641
->>>>>>> dith05a
 build_property._RazorSourceGeneratorDebug = 
