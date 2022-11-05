@@ -1,0 +1,194 @@
+﻿@using Ocr.Models.Training
+@model TrainingEntryModel; 
+
+@{
+    
+}
+
+<link rel="stylesheet" href="~/css/demo.css" asp-append-version="true" />
+
+<section id="main">
+    main  <br />
+
+    <button id="bTraining" class="btn btn-primary">Training</button>
+    <button id="bPaticipant"   class="btn btn-secondary">Participant</button>
+    <button id="bToCsv" class="btn btn-primary">To CSV</button>
+
+    <hr />
+
+    <div class="container">
+
+            @* ---- Program  *@
+            <div class="form-group row mt-2">
+                <label for="Program" class="col-sm-2 col-md-1 col-form-label">Program</label>
+                <div class="col-sm-10 col-md-10">
+                    <input id="frmProgram"  readonly  type="text" class="form-control" placeholder="Program Name ">
+                </div>
+            </div>
+
+            @* ---- Venue  *@
+            <div class="form-group row mt-2">
+                <label for="Venue" class="col-sm-2 col-md-1 col-form-label">Venue</label>
+                <div class="col-sm-10 col-md-10">
+                    <input id="frmVenue" readonly type="text" class="form-control" placeholder="Address of Training ">
+                </div>
+            </div>
+
+            
+            <div class="form-group row mt-2">
+                @* --- Trainor  *@
+                <label for="Trainor" class="col-sm-2 col-md-1 col-form-label">Trainor</label>
+                <div class="col-sm-10 col-md-5">
+                    <input id="frmTrainor" readonly type="text" class="form-control" placeholder="Juan Dela Cruz">
+                </div>
+
+                 @* --- Date  *@
+                <label for="DateTaken" class="col-sm-2 col-md-1 col-form-label">Date</label>
+                <div class="col-sm-10 col-md-4">
+                    <input id="frmDateTaken" readonly type="date" class="form-control" placeholder="Date of Training">
+                </div>
+            </div>
+
+            @* ---- Type  *@
+            <div class="form-group row mt-2">
+                <label for="Type" class="col-sm-2 col-md-1 col-form-label">Type</label>
+                <div class="col-sm-10 col-md-10">
+                    <input id="frmType" readonly type="text" class="form-control" placeholder="Internal / External ">
+                </div>
+            </div>
+
+        </div>
+
+</section>
+
+
+
+
+
+<section id="crud" class="d-none">
+@* <section id="crud" > *@
+    <div class="">
+        <button id="bCloseCrud" class="btn btn-danger">Close</button>
+    </div>
+    
+    <section id="Training"  class="d-none">
+    @* <section id="Training"  > *@
+        <div class="container">
+
+            @* ---- Program  *@
+            <div class="form-group row mt-2">
+                <label for="Program" class="col-sm-2 col-md-1 col-form-label">Program</label>
+                <div class="col-sm-10 col-md-10">
+                    <input id="frmProgram"  type="text" class="form-control" placeholder="Program Name ">
+                </div>
+            </div>
+
+            @* ---- Venue  *@
+            <div class="form-group row mt-2">
+                <label for="Venue" class="col-sm-2 col-md-1 col-form-label">Venue</label>
+                <div class="col-sm-10 col-md-10">
+                    <input id="frmVenue"  type="text" class="form-control" placeholder="Address of Training ">
+                </div>
+            </div>
+
+            
+            <div class="form-group row mt-2">
+                @* --- Trainor  *@
+                <label for="Trainor" class="col-sm-2 col-md-1 col-form-label">Trainor</label>
+                <div class="col-sm-10 col-md-5">
+                    <input id="frmTrainor"  type="text" class="form-control" placeholder="Juan Dela Cruz">
+                </div>
+
+                 @* --- Date  *@
+                <label for="DateTaken" class="col-sm-2 col-md-1 col-form-label">Date</label>
+                <div class="col-sm-10 col-md-4">
+                    <input id="frmDateTaken"  type="date" class="form-control" placeholder="Date of Training">
+                </div>
+            </div>
+
+            @* ---- Type  *@
+            <div class="form-group row mt-2">
+                <label for="Type" class="col-sm-2 col-md-1 col-form-label">Type</label>
+                <div class="col-sm-10 col-md-10">
+                    <input id="frmType"  type="text" class="form-control" placeholder="Internal / External ">
+                </div>
+            </div>
+
+        </div>  
+    </section>
+
+
+
+    @* **** Participant *@
+
+    <section id="Paticipant" class="d-none">
+        <div>
+            Paticipant
+        </div>
+    </section>
+
+    <section id="ToCsv" class="d-none">
+        <div>
+            ToCsv
+        </div>
+    </section>
+
+    <section id="delete" class="d-none">
+        <div>
+            delete
+        </div>
+    </section>
+
+</section>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        $(document).ready(function() {
+            var bTraining = $("#bTraining"); 
+            var bPaticipant = $("#bPaticipant");
+            var bCloseCrud = $("#bCloseCrud");  
+
+
+            var dcrud    = $("#crud"); 
+            var dTraining  = $("#Training"); 
+            var dPaticipant    = $("#Paticipant"); 
+            var dToCsv  = $("#ToCsv"); 
+            var ddelete  = $("#delete"); 
+            
+            @* --- Actions --- *@
+            
+            bTraining.click(function() {
+                dcrud.removeClass("d-none"); 
+                dTraining.removeClass("d-none"); 
+
+                dPaticipant.addClass("d-none"); 
+                dToCsv.addClass("d-none"); 
+                ddelete.addClass("d-none"); 
+                
+                
+            });
+
+
+            
+            bCloseCrud.click(function() {
+                dcrud.addClass("d-none"); 
+                HideCrudComponents(); 
+            }) ; 
+
+            @* --- Functions ---- *@
+            function HideCrudComponents() {
+                dTraining.addClass("d-none"); 
+                dPaticipant.addClass("d-none"); 
+                dToCsv.addClass("d-none"); 
+                ddelete.addClass("d-none"); 
+            }
+
+            
+
+        }); 
+    </script>
+}
+
