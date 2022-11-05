@@ -13,6 +13,6 @@ public static class Vtest
         return "123313";
     }
 
-    Dictionary<string, string> ocrAnnotation = new Dictionary<string, string>(); 
+    
 
 }

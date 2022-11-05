@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authentication.Google;
 using OcrLibrary.DataAccess;
 using LibraryMySql;
 using Microsoft.Extensions.Options;
+using LibraryMySql.DataAccess.Login;
 
 namespace Ocr.StartupConfig;
 
@@ -14,6 +15,11 @@ public static class DependencyExt
         builder.Services.AddControllersWithViews();
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
+
+
+        builder.Services.AddSingleton<IMySqlDataAccess, MySqlDataAccess>();
+        builder.Services.AddSingleton<ILoginAccess, LoginAccess>();
+
     }
 
     public static void AddAuthenticationServices(this WebApplicationBuilder builder)

@@ -1,0 +1,140 @@
+﻿
+@{
+}
+
+<link href="~/css/training.css" rel="stylesheet" type="text/css" />
+
+<h3><span class="training-title">Training Module</span></h3>
+
+<link href="~/css/training.css" rel="stylesheet" type="text/css" />
+
+
+<section id="main">
+    <hr />
+    <div class="training-main-btn">
+        <button type="button" class="btn btn-primary"     id="bTraining">Training</button>
+        <button type="button" class="btn btn-secondary"   id="bParticipant">Participant</button>
+        <button type="button" class="btn btn-success"     id="bToExcel">To Excel</button>
+    </div>
+
+    <div class="training-main-fields">
+        @* Program Name *@
+        <div class="form-group row">
+            <label for="Program" class="col-md-1 col-sm-2 col-form-label">Program</label>
+            <div class="col-md-10 col-sm-12 ">
+                <input type="text" readonly class="form-control" id="Program" placeholder="Program Name">
+            </div>
+        </div>
+
+        @* Venue *@
+        <div class="form-group row mt-2">
+            <label for="Venue" class="col-md-1 col-sm-2 col-form-label">Venue</label>
+            <div class="col-md-10 col-sm-12 ">
+                <input type="text" readonly class="form-control" id="Venue" placeholder="Venue">
+            </div>
+        </div>
+
+        
+
+        <div class="form-group row  mt-2">
+            @* Trainor *@
+            <label for="Trainor" class="col-md-1 col-sm-2 col-form-label">Trainor</label>
+            <div class="col-md-4 col-sm-12 ">
+                <input type="text" readonly class="form-control" id="Trainor" placeholder="Trainor Name">
+            </div>
+
+            @* Type *@
+            <label for="Type" class="col-md-1 col-sm-2 col-form-label">Type</label>
+            <div class="col-md-4 col-sm-12 ">
+                <input type="text" readonly class="form-control" id="Type" placeholder="Internal/Ecternal">
+            </div>
+        </div>
+
+        <div class="form-group row mt-2">
+            @* DateTaken *@
+            <label for="DateTaken" class="col-md-1 col-sm-2 col-form-label">Date Taken</label>
+            <div class="col-md-4 col-sm-12 ">
+                <input type="text" readonly class="form-control" id="DateTaken" placeholder="Date Taken">
+            </div>
+
+            
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+<section id="Cover">
+    <div>Cover Screen **** </div>
+
+    <section id="TrainingEntry">
+        <div>Training Entry</div>
+    </section>
+
+
+    <section id="EmployeeEntry">
+        <div>Employee Entry</div>
+        <div> <a class="btn btn-primary" id="bAddEmployee">Add Employee</a> </div>
+    </section>
+
+    <section id="Delete">
+        <div>Delete</div>
+
+    </section>
+
+</section>
+
+
+
+@section script {
+    @*<script src="~/js/pisTraining.js" asp-append-version="true"></script>*@
+
+    <script>
+
+        $(document).ready(function() {
+
+            var cover           = $("#Cover");
+            var trainingEntry   = $("#TrainingEntry");
+            var employeeEntry   = $("#EmployeeEntry");
+
+            @* Main Buttons *@
+            var bTraining       = $("#bTraining");
+            var bParticipant    = $("#bParticipant");
+            var bToExcel        = $("#bToExcel");
+
+            @* cover.hide();
+            trainingEntry.hide();
+            employeeEntry.hide();  *@
+
+
+            $("#cover").hide(); 
+
+
+            //alert("Its an alert");
+            $("#cover").click(function() {
+
+                alert("You click me!");
+
+            });
+
+            
+            bTraining.click(function() {
+                cover.show(); 
+            })
+
+
+        });
+
+
+
+    </script>
+}
+
+
+
+
+
+
